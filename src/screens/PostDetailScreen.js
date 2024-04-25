@@ -33,7 +33,7 @@ const PostDetailScreen = ({ route }) => {
 
   return (
     <View style={styles.postView}>
-      <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 10 }}>{post.title}</Text>
+      <Text style={{ fontSize: 18, fontWeight: 'bold', marginBottom: 30 }}>{post.title}</Text>
       <Text style={styles.postBody}>{post.body}</Text>
     </View>
   );
@@ -49,17 +49,10 @@ const styles = StyleSheet.create({
     },
 
     postBody: {
-        backgroundColor:theme.colors.touchableOpacityBackground,
+        borderColor: theme.colors.primary,
+        borderWidth: 1,
         padding: 10,
         borderRadius: 10,
-        shadowColor: '#000',
-        shadowOffset: {
-          width: 0,
-          height: 2,
-        },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
-        elevation: 5,
     }
   });
 

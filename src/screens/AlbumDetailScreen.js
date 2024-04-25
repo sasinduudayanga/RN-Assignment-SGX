@@ -32,8 +32,6 @@ const AlbumDetailScreen = ({ route }) => {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
       <Text>Title: {album.title}</Text>
-      <Text>User ID: {album.userId}</Text>
-      <Text>ID: {album.id}</Text>
     </View>
   );
 };
