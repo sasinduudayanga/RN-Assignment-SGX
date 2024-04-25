@@ -4,7 +4,9 @@ import { Provider } from 'react-native-paper'
 import { NavigationContainer } from '@react-navigation/native'
 import { createStackNavigator } from '@react-navigation/stack'
 import { theme } from './src/core/theme'
-import StartScreen from './src/screens/StartScreen'
+import StartScreen from './src/screens/StartScreen';
+import LoginScreen from './src/screens/LoginScreen';
+
 
 const Stack = createStackNavigator()
 
@@ -19,6 +21,7 @@ export default function App() {
           }}
         >
           <Stack.Screen name="StartScreen" component={StartScreen} />
+          <Stack.Screen name="LoginScreen" component={LoginScreen} />
         </Stack.Navigator>
       </NavigationContainer>
     </Provider>

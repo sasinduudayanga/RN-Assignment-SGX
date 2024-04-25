@@ -1,7 +1,7 @@
 import React from 'react'
 import Background from '../components/Backgorund'
-import Header from '../components/Header'
 import Button from '../components/Button'
+import Header from '../components/Header'
 import Paragraph from '../components/Paragraph'
 
 export default function StartScreen({ navigation }) {
