@@ -79,7 +79,7 @@ const HomeScreen = ({ navigation }) => {
     <Tab.Navigator
     screenOptions={{
         tabBarLabelStyle: { fontSize: 18, marginTop: 25, color: theme.colors.secondary },
-        tabBarStyle: { height: 90, marginBottom: 10, },
+        tabBarStyle: { height: 70, marginBottom: 10, },
       }}
     >
       <Tab.Screen name="Albums">

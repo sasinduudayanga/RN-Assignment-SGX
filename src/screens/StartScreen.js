@@ -4,7 +4,7 @@ import Button from '../components/Button'
 import Header from '../components/Header'
 import Paragraph from '../components/Paragraph'
 
-export default function StartScreen({ navigation }) {
+const StartScreen = ({ navigation }) => {
   return (
     <Background>
       <Header>Island Wellness</Header>
@@ -25,4 +25,7 @@ export default function StartScreen({ navigation }) {
       </Button>
     </Background>
   )
-}
+};
+
+export default StartScreen;
+

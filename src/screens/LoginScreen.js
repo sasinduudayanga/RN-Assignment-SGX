@@ -10,7 +10,7 @@ import { theme } from '../core/theme'
 import { emailValidator } from '../helpers/emailValidator'
 import { passwordValidator } from '../helpers/passwordValidator'
 
-export default function LoginScreen({ navigation }) {
+const LoginScreen = ({ navigation }) => {
   const [email, setEmail] = useState({ value: '', error: '' })
   const [password, setPassword] = useState({ value: '', error: '' })
 
@@ -73,7 +73,9 @@ export default function LoginScreen({ navigation }) {
       </View>
     </Background>
   )
-}
+};
+
+export default LoginScreen;
 
 const styles = StyleSheet.create({
   forgotPassword: {
